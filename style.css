@@ -91,3 +91,35 @@ text-align: center;
     margin-bottom: 30px;
     line-height: 60px;
 }
+#menu-btn{
+color: #fff;
+font-size: 2rem;
+}
+
+@media(max-width:768px){
+    .nav-links{
+        display: none;
+    }
+    .main-nav img{
+        width: 100px;
+        padding-right: 0;
+        border: none;
+    }
+    .main-header{
+           top: 40%;
+    }
+}
+@media(max-width:600px){
+    .main-header h1{
+        font-size: 2.5rem;
+        font-weight: 500;
+        padding: 0 20px;
+        }
+        .main-header p{
+            font-size: 1.1rem;
+            padding: 0 20px;
+        }
+        .main-header{
+            top: 30%;
+     }
+}
